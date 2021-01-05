@@ -14,19 +14,19 @@ var gameState = PLAY;
 var distance=0;
 
 function preload(){
-  pathImg = loadImage("images/Road.png");
-  mainRacerImg1 = loadAnimation("images/mainPlayer1.png","images/mainPlayer2.png");
-  mainRacerImg2= loadAnimation("images/mainPlayer3.png");
+  pathImg = loadImage("Road.png");
+  mainRacerImg1 = loadAnimation("mainPlayer1.png","mainPlayer2.png");
+  mainRacerImg2= loadAnimation("mainPlayer3.png");
   
   pinkC = loadAnimation("opponent1.png","opponent2.png");
-  yellowC = loadAnimation("Opponents/ygirl_m1.png","Opponents/ygirl_m2.png");
-  redC = loadAnimation("Opponents/boy_m1.png","Opponents/boy_m2.png");
+  yellowC = loadAnimation("ygirl_m1.png","ygirl_m2.png");
+  redC = loadAnimation("boy_m1.png","boy_m2.png");
   
-  obstacle1 = loadImage("Obstacles/obstacle1.png");
-  obstacle2 = loadImage("Obstacles/obstacle2.png");
-  obstacle3 = loadImage("Obstacles/obstacle3.png");
+  obstacle1 = loadImage("obstacle1.png");
+  obstacle2 = loadImage("obstacle2.png");
+  obstacle3 = loadImage("obstacle3.png");
   
-  cycleBell = loadSound("sound/bell.mp3");
+  cycleBell = loadSound("bell.mp3");
   
   gameoverImg = loadImage("gameOver.png");
   
